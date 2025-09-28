@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home Cafeteria</title>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="./video/0_Coffee_Coffee_Brewing_1280x720.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="./assets/logo.png" alt="logo-cafeteria">
+            </a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#">Menu</a>
+                <a href="#">Avaliações</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+    <section class="caixa-principal">
+        <div>
+            <h3>Code com o Melhor café da Região</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, accusamus ad. Nisi laborum veniam enim
+                sapiente,
+                maxime at iure eos cum asperiores nostrum atque. Temporibus delectus voluptatum illum ut rem!</p>
+            <a class="botao-link">Pague o seu agora</a>
+        </div>
+    </section>
+    <section class="caixa-sobre">
+        <h2 class="titulo"><span>Sobre</span> Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="./assets/about-img.jpg">
+            </div>
+            <div class="sobre-texto" id="sobre">
+                <h3>O que faz nosso café especial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo veritatis quasi! Omnis, atque
+                    molestias vero ut voluptas commodi,
+                    facilis, libero odit accusamus dicta saepe. Repellat tempore perferendis voluptas debitis?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum necessitatibus deleniti odit. Recusandae
+                    sint
+                    perferendis, possimus iusto atque quaerat, eligendi error numquam nesciunt autem adipisci deserunt
+                    dolores obcaecati molestias? Iure.</p>
+
+                <a class="botao-link">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4286026230857!2d-46.84012002385292!3d-23.553045378805507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf003a59adf337%3A0xb726315371ac4c91!2sEstr.%20Ernestina%20Vieira%2C%20149%20-%20Vila%20Silviania%2C%20Carapicu%C3%ADba%20-%20SP%2C%2006382-260!5e0!3m2!1spt-BR!2sbr!4v1759012484604!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="mascara-modal" onclick="esconderModal()"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
