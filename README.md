@@ -46,6 +46,7 @@ video/
 - HTML5
 - CSS3
 - JavaScript
+- Inteligência Artificial (IA)
 ---
 
 Desenvolvido por João Rodrigues.
